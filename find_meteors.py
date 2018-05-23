@@ -6,10 +6,10 @@ Created on Mon May 14 14:01:23 2018
 """
 
 #------ This part of the code to set the proxies for accessing website from intranet
-#import os, os.path
+import os, os.path
 
-#os.environ['HTTP_PROXY']="http://usca-proxy01.na.novartis.net:2011"
-#os.environ['HTTPS_PROXY']="http://usca-proxy01.na.novartis.net:2011"
+os.environ['HTTP_PROXY']="http://nibr-proxy.global.nibr.novartis.net:2011"
+os.environ['HTTPS_PROXY']="http://nibr-proxy.global.nibr.novartis.net:2011"
 #----
 
 import math
